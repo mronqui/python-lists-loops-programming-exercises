@@ -15,4 +15,4 @@ def test_output_two(capsys, app):
 @pytest.mark.it('Set the position were thrusday is to None')
 def test_position_two():
     from app import my_list
-    assert my_list[4] is None
+    assert my_list[2] is None
